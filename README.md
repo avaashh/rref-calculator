@@ -57,6 +57,6 @@ Feel free to contribute to the development of the RREF Calculator by opening iss
 
 This project is licensed under the MIT License.
 
-## License
+## Credits
 
 Project uses [MathJax](https://www.mathjax.org/) for mathematical outputs.
