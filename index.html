@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reduced Row Echelon Form</title>
+
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script
+      type="text/javascript"
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+    ></script>
+  </head>
+  <body>
+    <div id="sizeInput">
+      <h1>Reduced Row Echelon Calculator</h1>
+      <section>
+        <label for="matrix">Enter Matrix Size:</label><br />
+        <div>
+          <input type="number" value="3" id="row-size" />
+          <span>x</span>
+          <input type="number" value="4" id="col-size" />
+        </div>
+      </section>
+
+      <label for="matrix">Enter Matrix Elements:</label><br />
+      <div id="matrixInput"></div>
+      <button onclick="processMatrix()">Calculate</button>
+    </div>
+
+    <script src="./tools/dist.js"></script>
+    <script src="./tools/fraction.js"></script>
+    <script src="./tools/basicTex.js"></script>
+    <script src="./tools/builder.js"></script>
+    <script src="./tools/echelon.js"></script>
+  </body>
+</html>
